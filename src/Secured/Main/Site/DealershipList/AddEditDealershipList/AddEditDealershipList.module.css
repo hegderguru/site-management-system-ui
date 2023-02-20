@@ -1,0 +1,34 @@
+
+.AddEditDealershipList {
+    display: flex;
+    flex-direction: row;
+}
+
+.Columns {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.Columns div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Columns div label,input,select{
+    margin: 2px;
+    padding: 2px;
+}
+
+.Columns div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Columns div div div{
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+}

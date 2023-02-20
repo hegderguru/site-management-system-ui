@@ -1,0 +1,50 @@
+.SimpleViewAccount {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--BORDER_COLOR);
+  
+}
+
+.SimpleViewAccount:hover {
+    background-color: var(--HOVER_BACKGROUND_COLOR);    
+  }
+
+.SimpleViewAccount h2 {
+  text-align: center;
+  margin: 2px;
+}
+
+.Column {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  flex-basis: 100%;
+}
+
+.Column div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Column div label {
+  margin: 4px;
+}
+
+.Column div input {
+  margin: 4px;
+}
+
+.Button {
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .SimpleViewAccount {
+    flex-direction: column;
+  }
+  .Column {
+    width: 90%;
+  }
+}

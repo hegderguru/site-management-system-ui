@@ -1,0 +1,36 @@
+.ViewAccount {
+  display: flex;
+  flex-direction: row;
+}
+
+.Column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 15px;
+}
+
+.Column div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2px;
+}
+
+.Column div p {
+  margin: 10px;
+}
+
+.Button {
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .ViewAccount {
+    flex-direction: column;
+  }
+  .Column {
+    width: 90%;
+  }
+}

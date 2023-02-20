@@ -1,0 +1,32 @@
+.AddEditSite {
+    font-display: inherit;
+}
+
+.Row {
+    display: flex;
+    flex-direction: row;
+}
+
+.Column {
+    display: flex;
+    flex-direction: column;
+}
+
+.Button {
+    text-align: center;
+  }
+
+  .AddDealership h2 {
+    text-align: center;
+    margin: 2px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .Row {
+      flex-direction: column;
+    }
+    .column {
+      width: 90%;
+    }
+  }
+  

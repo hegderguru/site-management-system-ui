@@ -1,0 +1,18 @@
+.UpdateAccount {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .Button {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .UpdateAccount {
+      flex-direction: column;
+    }
+    .column {
+      width: 90%;
+    }
+  }
+  

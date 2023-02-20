@@ -1,0 +1,45 @@
+.NewEditDealershipForm {
+  display: flex;
+  flex-direction: row;
+}
+
+.NewEditDealershipForm h2 {
+  text-align: center;
+  margin: 2px;
+}
+
+.Column {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.Column div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4px;
+  padding: 2px;
+}
+
+.Column div label {
+  margin: 4px;
+}
+
+.Column div input {
+  margin: 4px;
+}
+
+.Button {
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .NewEditDealershipForm {
+    flex-direction: column;
+  }
+  .Column {
+    width: 90%;
+  }
+}

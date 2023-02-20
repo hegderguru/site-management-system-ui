@@ -1,0 +1,21 @@
+.SimpleUser {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 2px;
+  padding: 5px;
+  border: 2px outset var(--BORDER_COLOR);
+}
+
+.UserType {
+  width: 100%;
+  text-align: right;
+}
+
+.CreateLink {
+  width: 100%;
+  text-align: right;
+  margin: 5px;
+}

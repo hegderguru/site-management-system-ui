@@ -1,0 +1,21 @@
+:root {
+  --BACKGROUND_COLOR: rgb(255, 255, 255);
+  --TEXT_COLOR: rgb(73, 99, 170);
+  --BORDER_COLOR: rgb(119, 140, 197);
+  --HOVER_BACKGROUND_COLOR: rgb(108, 127, 134);
+  --HOVER_COLOR: rgb(25, 30, 32);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-color: var(--BACKGROUND_COLOR);
+  color: var(--TEXT_COLOR);
+  
+}
+
+body {
+  max-width: 100%;
+  height: 100vh;
+}

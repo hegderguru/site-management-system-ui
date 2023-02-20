@@ -1,0 +1,16 @@
+.Columns {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.Columns div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Columns div label,input,select{
+    margin: 2px;
+    padding: 2px;
+}

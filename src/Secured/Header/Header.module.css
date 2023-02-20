@@ -1,0 +1,21 @@
+.Header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.Header:first-child {
+    flex-grow: 1;
+}
+
+.Header:last-child {
+    flex-grow: 2;
+}
+
+.Header:nth-child(2){
+    flex-grow: 10;
+}
